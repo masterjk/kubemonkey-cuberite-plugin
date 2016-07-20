@@ -1,0 +1,37 @@
+     [11:49:07] --- Started Log ---
+     [11:49:07] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [11:49:07] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [11:49:07] Creating new server instance...
+     [11:49:07] Reading server config...
+     [11:49:07] Starting server...
+Info [11:49:07] Compatible clients: 1.7.x, 1.8.x
+Info [11:49:07] Compatible protocol versions 4, 5, 47
+Warn [11:49:07] WebServer: The server is running in unsecured HTTP mode.
+Info [11:49:07] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [11:49:07] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [11:49:07] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [11:49:07] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [11:49:07] -- Loading Plugins --
+     [11:49:07] Initialized ChatLog v.3
+     [11:49:07] Initialised Core v.15
+     [11:49:07] Initialized TransAPI v.1
+     [11:49:07] -- Loaded 4 Plugins --
+Warn [11:49:07] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [11:49:07] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [11:49:07] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+Info [11:49:10] Chosen a new random seed for world: 52749771
+Warn [11:49:11] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+     [11:49:13] Chunk generator performance: 26.27 ch / sec (54 ch total)
+Info [11:49:13] Chosen a new random seed for world: 1628352583
+Warn [11:49:13] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [11:49:13] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+Warn [11:49:14] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+     [11:49:16] Startup complete, took 8810ms!
+     [11:49:16] Chunk generator performance: 45.04 ch / sec (90 ch total)
+     [11:50:23] Shutting down server...
+     [11:50:24] Unloading worlds...
+     [11:50:24] Disabled Core!
+     [11:50:25] Disabled TransAPI!
+     [11:50:25] Cleaning up...
+     [11:50:25] Shutdown successful!
+     [11:50:25] --- Stopped Log ---

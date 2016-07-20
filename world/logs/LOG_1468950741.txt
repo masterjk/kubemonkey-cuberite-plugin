@@ -1,0 +1,48 @@
+     [10:52:21] --- Started Log ---
+     [10:52:21] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [10:52:21] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [10:52:21] Creating new server instance...
+     [10:52:21] Reading server config...
+     [10:52:21] Starting server...
+Info [10:52:21] Compatible clients: 1.7.x, 1.8.x
+Info [10:52:21] Compatible protocol versions 4, 5, 47
+Warn [10:52:21] WebServer: The server is running in unsecured HTTP mode.
+Info [10:52:21] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [10:52:21] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [10:52:21] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [10:52:21] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [10:52:21] -- Loading Plugins --
+     [10:52:21] Initialized ChatLog v.3
+     [10:52:21] Initialised Core v.15
+     [10:52:21] Initialised Docker v.1
+     [10:52:21] Initialized TransAPI v.1
+     [10:52:21] -- Loaded 4 Plugins --
+Warn [10:52:21] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [10:52:21] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [10:52:21] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+     [10:52:22] Preparing spawn (world): 21.25% (85/400; 82.44 chunks / sec)
+     [10:52:22] Chunk generator performance: 90.93 ch / sec (182 ch total)
+     [10:52:23] Preparing spawn (world): 55.75% (223/400; 134.37 chunks / sec)
+     [10:52:24] Chunk generator performance: 87.09 ch / sec (349 ch total)
+     [10:52:24] Preparing spawn (world): 88.25% (353/400; 129.87 chunks / sec)
+     [10:52:25] Chunk generator performance: 85.56 ch / sec (484 ch total)
+Info [10:52:25] Chosen a new random seed for world: 1447742768
+Warn [10:52:26] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 168.00, 0.00}
+Info [10:52:26] Chosen a new random seed for world: 1038118612
+Warn [10:52:26] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [10:52:26] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+     [10:52:27] Preparing spawn (world_nether): 24.75% (99/400; 98.61 chunks / sec)
+     [10:52:28] Preparing spawn (world_nether): 52.00% (208/400; 108.46 chunks / sec)
+     [10:52:29] Preparing spawn (world_nether): 79.50% (318/400; 109.45 chunks / sec)
+     [10:52:30] Preparing spawn (world_nether): 48.75% (195/400; 194.81 chunks / sec)
+Info [10:52:31] Generated spawnpoint position at {-63.50, 121.00, -63.50}
+     [10:52:31] Startup complete, took 9631ms!
+Info [10:52:34] Player GeneralDragon has joined the game
+     [10:52:44] Shutting down server...
+Info [10:52:44] Player GeneralDragon has left the game
+     [10:52:45] Unloading worlds...
+     [10:52:45] Disabled Core!
+     [10:52:45] Disabled TransAPI!
+     [10:52:45] Cleaning up...
+     [10:52:45] Shutdown successful!
+     [10:52:45] --- Stopped Log ---

@@ -1,0 +1,5 @@
+rm -rf world/data
+rm -rf world/stats/
+rm -rf world_end/
+rm -rf world_nether/
+rm -rf world/region/*

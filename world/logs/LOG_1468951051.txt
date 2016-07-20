@@ -1,0 +1,44 @@
+     [10:57:31] --- Started Log ---
+     [10:57:31] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [10:57:31] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [10:57:31] Creating new server instance...
+     [10:57:31] Reading server config...
+     [10:57:31] Starting server...
+Info [10:57:31] Compatible clients: 1.7.x, 1.8.x
+Info [10:57:31] Compatible protocol versions 4, 5, 47
+Warn [10:57:31] WebServer: The server is running in unsecured HTTP mode.
+Info [10:57:31] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [10:57:31] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [10:57:31] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [10:57:31] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [10:57:31] -- Loading Plugins --
+     [10:57:31] Initialized ChatLog v.3
+     [10:57:31] Initialised Core v.15
+     [10:57:31] Initialized TransAPI v.1
+     [10:57:31] -- Loaded 4 Plugins --
+Warn [10:57:31] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [10:57:31] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [10:57:31] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+Info [10:57:32] Chosen a new random seed for world: 1424339470
+Warn [10:57:33] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+Info [10:57:33] Chosen a new random seed for world: 163964043
+Warn [10:57:33] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [10:57:33] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+Warn [10:57:34] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+     [10:57:34] Startup complete, took 3857ms!
+Info [10:57:37] Player GeneralDragon has joined the game
+Info [10:57:50] Player GeneralDragon issued an unknown command: "/die"
+Info [10:57:52] Player GeneralDragon issued an unknown command: "/suicide"
+Info [10:57:54] Player GeneralDragon issued an unknown command: "/restart"
+Info [10:57:56] Player GeneralDragon issued an unknown command: "/reset"
+     [10:58:21] Shutting down server...
+Info [10:58:21] Player GeneralDragon has left the game
+     [10:58:22] Executing console command: "[A"
+     [10:58:22] Unknown command, type 'help' for all commands.
+     [10:58:22] Unloading worlds...
+     [10:58:22] Disabled Core!
+     [10:58:23] Disabled TransAPI!
+     [10:58:23] Cleaning up...
+Warn [10:58:23] Couldn't notify the input thread; the server will hang before shutdown!
+     [10:58:23] Shutdown successful!
+     [10:58:23] --- Stopped Log ---

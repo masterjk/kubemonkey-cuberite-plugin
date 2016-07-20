@@ -1,0 +1,30 @@
+     [13:39:54] --- Started Log ---
+     [13:39:54] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [13:39:54] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [13:39:54] Creating new server instance...
+     [13:39:54] Reading server config...
+     [13:39:54] Starting server...
+Info [13:39:54] Compatible clients: 1.7.x, 1.8.x
+Info [13:39:54] Compatible protocol versions 4, 5, 47
+Warn [13:39:54] WebServer: The server is running in unsecured HTTP mode.
+Info [13:39:54] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [13:39:54] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [13:39:54] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [13:39:54] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [13:39:54] -- Loading Plugins --
+     [13:39:54] Initialized ChatLog v.3
+     [13:39:54] Initialised Core v.15
+     [13:39:54] Initialized KubeMonkey v.1
+     [13:39:54] Initialized TransAPI v.1
+     [13:39:54] -- Loaded 4 Plugins --
+Warn [13:39:54] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [13:39:54] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [13:39:54] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+     [13:39:55] OnWorldStarted
+Info [13:39:55] Chosen a new random seed for world: 795213505
+Warn [13:39:56] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+     [13:39:56] OnWorldStarted
+Info [13:39:56] Chosen a new random seed for world: 596161735
+Warn [13:39:56] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [13:39:56] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+Warn [13:39:57] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}

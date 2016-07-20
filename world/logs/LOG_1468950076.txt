@@ -1,0 +1,36 @@
+     [10:41:16] --- Started Log ---
+     [10:41:16] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [10:41:16] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [10:41:16] Creating new server instance...
+     [10:41:16] Reading server config...
+     [10:41:16] Starting server...
+Info [10:41:16] Compatible clients: 1.7.x, 1.8.x
+Info [10:41:16] Compatible protocol versions 4, 5, 47
+Warn [10:41:16] WebServer: The server is running in unsecured HTTP mode.
+Info [10:41:16] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [10:41:16] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [10:41:16] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [10:41:16] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [10:41:16] -- Loading Plugins --
+     [10:41:16] Initialized ChatLog v.3
+     [10:41:16] Initialised Core v.15
+     [10:41:16] Initialised Docker v.1
+     [10:41:16] Initialized TransAPI v.1
+     [10:41:16] -- Loaded 5 Plugins --
+Warn [10:41:16] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [10:41:16] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [10:41:16] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+Warn [10:41:17] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [10:41:17] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+     [10:41:18] Startup complete, took 2152ms!
+     [10:41:21] player joined
+     [10:41:21] executed: goproxy containers -> 0
+Info [10:41:21] Player GeneralDragon has joined the game
+     [10:41:42] Shutting down server...
+Info [10:41:43] Player GeneralDragon has left the game
+     [10:41:43] Unloading worlds...
+     [10:41:43] Disabled Core!
+     [10:41:43] Disabled TransAPI!
+     [10:41:43] Cleaning up...
+     [10:41:43] Shutdown successful!
+     [10:41:43] --- Stopped Log ---

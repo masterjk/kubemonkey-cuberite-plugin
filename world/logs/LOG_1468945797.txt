@@ -1,0 +1,84 @@
+     [09:29:57] --- Started Log ---
+     [09:29:57] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [09:29:57] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [09:29:57] Creating new server instance...
+     [09:29:57] Reading server config...
+     [09:29:57] Starting server...
+Info [09:29:57] Compatible clients: 1.7.x, 1.8.x
+Info [09:29:57] Compatible protocol versions 4, 5, 47
+Warn [09:29:57] WebServer: The server is running in unsecured HTTP mode.
+Info [09:29:57] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [09:29:57] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [09:29:57] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [09:29:57] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [09:29:57] -- Loading Plugins --
+     [09:29:57] Initialized ChatLog v.3
+     [09:29:57] Initialised Core v.15
+     [09:29:57] Initialised Docker v.1
+Warn [09:29:57] cPluginManager:AddHook(): bad parameters. Expected HOOK_TYPE and CallbackFunction, got table, number, nil. Hook not added.
+Warn [09:29:57] Stack trace:
+Warn [09:29:57]   [C](-1): AddHook
+Warn [09:29:57]   Plugins/KubeMonkey/kubemonkey.lua(11): (no name)
+Warn [09:29:57] Stack trace end
+Warn [09:29:57] cPluginManager:AddHook(): bad parameters. Expected HOOK_TYPE and CallbackFunction, got table, number, nil. Hook not added.
+Warn [09:29:57] Stack trace:
+Warn [09:29:57]   [C](-1): AddHook
+Warn [09:29:57]   Plugins/KubeMonkey/kubemonkey.lua(12): (no name)
+Warn [09:29:57] Stack trace end
+Warn [09:29:57] cPluginManager:AddHook(): bad parameters. Expected HOOK_TYPE and CallbackFunction, got table, number, nil. Hook not added.
+Warn [09:29:57] Stack trace:
+Warn [09:29:57]   [C](-1): AddHook
+Warn [09:29:57]   Plugins/KubeMonkey/kubemonkey.lua(13): (no name)
+Warn [09:29:57] Stack trace end
+Warn [09:29:57] cPluginManager:AddHook(): bad parameters. Expected HOOK_TYPE and CallbackFunction, got table, number, nil. Hook not added.
+Warn [09:29:57] Stack trace:
+Warn [09:29:57]   [C](-1): AddHook
+Warn [09:29:57]   Plugins/KubeMonkey/kubemonkey.lua(14): (no name)
+Warn [09:29:57] Stack trace end
+Warn [09:29:57] cPluginManager:AddHook(): bad parameters. Expected HOOK_TYPE and CallbackFunction, got table, number, nil. Hook not added.
+Warn [09:29:57] Stack trace:
+Warn [09:29:57]   [C](-1): AddHook
+Warn [09:29:57]   Plugins/KubeMonkey/kubemonkey.lua(15): (no name)
+Warn [09:29:57] Stack trace end
+Warn [09:29:57] cPluginManager:AddHook(): bad parameters. Expected HOOK_TYPE and CallbackFunction, got table, number, nil. Hook not added.
+Warn [09:29:57] Stack trace:
+Warn [09:29:57]   [C](-1): AddHook
+Warn [09:29:57]   Plugins/KubeMonkey/kubemonkey.lua(16): (no name)
+Warn [09:29:57] Stack trace end
+Warn [09:29:57] cPluginManager:AddHook(): bad parameters. Expected HOOK_TYPE and CallbackFunction, got table, number, nil. Hook not added.
+Warn [09:29:57] Stack trace:
+Warn [09:29:57]   [C](-1): AddHook
+Warn [09:29:57]   Plugins/KubeMonkey/kubemonkey.lua(17): (no name)
+Warn [09:29:57] Stack trace end
+Warn [09:29:57] cPluginManager:AddHook(): bad parameters. Expected HOOK_TYPE and CallbackFunction, got table, number, nil. Hook not added.
+Warn [09:29:57] Stack trace:
+Warn [09:29:57]   [C](-1): AddHook
+Warn [09:29:57]   Plugins/KubeMonkey/kubemonkey.lua(18): (no name)
+Warn [09:29:57] Stack trace end
+Warn [09:29:57] cPluginManager:AddHook(): bad parameters. Expected HOOK_TYPE and CallbackFunction, got table, number, nil. Hook not added.
+Warn [09:29:57] Stack trace:
+Warn [09:29:57]   [C](-1): AddHook
+Warn [09:29:57]   Plugins/KubeMonkey/kubemonkey.lua(19): (no name)
+Warn [09:29:57] Stack trace end
+Warn [09:29:57] LUA: Plugins/KubeMonkey/kubemonkey.lua:23: "BindCommand" function expects a function as its 3rd parameter. Command-binding aborted.
+Warn [09:29:57] Stack trace:
+Warn [09:29:57]   [C](-1): BindCommand
+Warn [09:29:57]   Plugins/KubeMonkey/kubemonkey.lua(23): (no name)
+Warn [09:29:57] Stack trace end
+Warn [09:29:57] Error in plugin KubeMonkey calling function Initialize()
+Warn [09:29:57] Error in plugin KubeMonkey: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [09:29:57] Initialized TransAPI v.1
+     [09:29:57] -- Loaded 4 Plugins --
+Warn [09:29:57] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [09:29:57] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [09:29:57] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+Warn [09:29:58] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [09:29:58] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+     [09:29:59] Startup complete, took 1667ms!
+     [09:30:14] Shutting down server...
+     [09:30:14] Unloading worlds...
+     [09:30:14] Disabled Core!
+     [09:30:14] Disabled TransAPI!
+     [09:30:14] Cleaning up...
+     [09:30:14] Shutdown successful!
+     [09:30:14] --- Stopped Log ---

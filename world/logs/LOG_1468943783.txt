@@ -1,0 +1,30 @@
+     [08:56:23] --- Started Log ---
+     [08:56:23] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [08:56:23] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [08:56:23] Creating new server instance...
+     [08:56:23] Reading server config...
+     [08:56:23] Starting server...
+Info [08:56:23] Compatible clients: 1.7.x, 1.8.x
+Info [08:56:23] Compatible protocol versions 4, 5, 47
+Warn [08:56:23] WebServer: The server is running in unsecured HTTP mode.
+Info [08:56:23] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [08:56:23] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [08:56:23] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [08:56:23] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [08:56:23] The server detected an old default config with bad world linkages. This has been autofixed by adding "world_nether" and "world_end" to settings.ini
+     [08:56:23] -- Loading Plugins --
+     [08:56:23] Initialized ChatLog v.3
+     [08:56:23] Initialised Core v.15
+     [08:56:23] Initialised Docker v.1
+     [08:56:23] Initialized TransAPI v.1
+     [08:56:23] -- Loaded 4 Plugins --
+Warn [08:56:23] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [08:56:23] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [08:56:23] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+     [08:56:24] Preparing spawn (world): 96.75% (387/400; 386.61 chunks / sec)
+Info [08:56:24] Chosen a new random seed for world: 1616236919
+Warn [08:56:25] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+Info [08:56:25] Chosen a new random seed for world: 1568419211
+Warn [08:56:25] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [08:56:25] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+Warn [08:56:26] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}

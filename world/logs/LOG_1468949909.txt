@@ -1,0 +1,41 @@
+     [10:38:29] --- Started Log ---
+     [10:38:29] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [10:38:29] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [10:38:29] Creating new server instance...
+     [10:38:29] Reading server config...
+     [10:38:29] Starting server...
+Info [10:38:29] Compatible clients: 1.7.x, 1.8.x
+Info [10:38:29] Compatible protocol versions 4, 5, 47
+Warn [10:38:29] WebServer: The server is running in unsecured HTTP mode.
+Info [10:38:29] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [10:38:29] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [10:38:29] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [10:38:29] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [10:38:29] -- Loading Plugins --
+     [10:38:29] Initialized ChatLog v.3
+     [10:38:29] Initialised Core v.15
+     [10:38:29] Initialised Docker v.1
+Warn [10:38:29] Can't load plugin KubeMonkey because of an initialization error in file Plugins/KubeMonkey/kubemonkey.lua: 2 (Plugins/KubeMonkey/kubemonkey.lua:8: attempt to perform arithmetic on global 'CONTAINER_START_Z' (a nil value))
+     [10:38:29] Initialized TransAPI v.1
+     [10:38:29] -- Loaded 4 Plugins --
+Warn [10:38:29] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [10:38:29] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [10:38:29] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+Info [10:38:30] Chosen a new random seed for world: 164023827
+Warn [10:38:31] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+Info [10:38:31] Chosen a new random seed for world: 1480707325
+Warn [10:38:31] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [10:38:31] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+Warn [10:38:32] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+     [10:38:32] Startup complete, took 2980ms!
+     [10:38:34] player joined
+     [10:38:34] executed: goproxy containers -> 0
+Info [10:38:34] Player GeneralDragon has joined the game
+     [10:38:41] Shutting down server...
+Info [10:38:41] Player GeneralDragon has left the game
+     [10:38:41] Unloading worlds...
+     [10:38:41] Disabled Core!
+     [10:38:41] Disabled TransAPI!
+     [10:38:41] Cleaning up...
+     [10:38:41] Shutdown successful!
+     [10:38:41] --- Stopped Log ---

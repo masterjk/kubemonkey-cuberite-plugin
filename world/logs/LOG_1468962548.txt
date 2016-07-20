@@ -1,0 +1,44 @@
+     [14:09:08] --- Started Log ---
+     [14:09:08] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [14:09:08] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [14:09:08] Creating new server instance...
+     [14:09:08] Reading server config...
+     [14:09:08] Starting server...
+Info [14:09:08] Compatible clients: 1.7.x, 1.8.x
+Info [14:09:08] Compatible protocol versions 4, 5, 47
+Warn [14:09:08] WebServer: The server is running in unsecured HTTP mode.
+Info [14:09:08] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [14:09:08] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [14:09:08] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [14:09:08] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [14:09:08] -- Loading Plugins --
+     [14:09:09] Initialized ChatLog v.3
+     [14:09:09] Initialised Core v.15
+     [14:09:09] Initialized KubeMonkey v.1
+     [14:09:09] Initialized TransAPI v.1
+     [14:09:09] -- Loaded 4 Plugins --
+Warn [14:09:09] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [14:09:09] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [14:09:09] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+     [14:09:09] OnWorldStarted
+     [14:09:10] OnWorldStarted
+Warn [14:09:10] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [14:09:10] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+     [14:09:10] OnWorldStarted
+     [14:09:10] Startup complete, took 1895ms!
+Info [14:09:17] Player GeneralDragon has joined the game
+     [14:09:19] Spawn Pig now
+     [14:09:19] Spawn Result: 2
+Info [14:09:26] Player GeneralDragon issued an unknown command: "/villager"
+     [14:09:33] Spawn Pig now
+     [14:09:33] Spawn Result: 3
+     [14:09:34] Spawn Pig now
+     [14:09:34] Spawn Result: 4
+     [14:09:35] Spawn Pig now
+     [14:09:35] Spawn Result: 5
+     [14:09:36] Spawn Pig now
+     [14:09:36] Spawn Result: 6
+Err  [14:09:43]   D:    | Cuberite has encountered an error and needs to close
+Err  [14:09:43] Details | SIGABRT: Server self-terminated due to an internal fault
+Err  [14:09:43] Cuberite Jenkins clang x64 Release (master) build id: #85
+Err  [14:09:43] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016

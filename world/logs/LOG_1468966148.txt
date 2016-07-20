@@ -1,0 +1,57 @@
+     [15:09:08] --- Started Log ---
+     [15:09:08] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [15:09:08] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [15:09:08] Creating new server instance...
+     [15:09:08] Reading server config...
+     [15:09:08] Starting server...
+Info [15:09:08] Compatible clients: 1.7.x, 1.8.x
+Info [15:09:08] Compatible protocol versions 4, 5, 47
+Warn [15:09:08] WebServer: The server is running in unsecured HTTP mode.
+Info [15:09:08] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [15:09:08] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [15:09:08] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [15:09:08] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [15:09:08] -- Loading Plugins --
+     [15:09:08] Initialized ChatLog v.3
+     [15:09:08] Initialised Core v.15
+     [15:09:08] Initialized KubeMonkey v.1
+     [15:09:08] Initialized TransAPI v.1
+     [15:09:08] -- Loaded 4 Plugins --
+Warn [15:09:08] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [15:09:08] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [15:09:08] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+     [15:09:09] OnWorldStarted
+Info [15:09:09] Chosen a new random seed for world: 1119029608
+Warn [15:09:10] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+     [15:09:10] OnWorldStarted
+Info [15:09:10] Chosen a new random seed for world: 659438688
+Warn [15:09:10] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [15:09:10] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+Warn [15:09:11] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+     [15:09:11] OnWorldStarted
+     [15:09:11] Startup complete, took 3189ms!
+Info [15:09:34] Player GeneralDragon has joined the game
+Info [15:10:02] Player GeneralDragon has left the game
+Info [15:10:29] Player GeneralDragon has joined the game
+     [15:10:37] Player Suicide
+     [15:11:04] Time in world "world" was set to 1000
+     [15:11:10] Time in world "world" was set to 13000
+     [15:11:14] Time in world "world" was set to 1000
+Warn [15:11:33] LUA: Plugins/KubeMonkey/handlers.lua:35: error in function 'AddEntityEffect'.
+     argument #2 is '[no object]'; 'number' expected.
+
+Warn [15:11:33] Stack trace:
+Warn [15:11:33]   [C](-1): AddEntityEffect
+Warn [15:11:33]   Plugins/KubeMonkey/handlers.lua(35): (no name)
+Warn [15:11:33]   [C](-1): DoWithEntityByID
+Warn [15:11:33]   Plugins/KubeMonkey/handlers.lua(20): (no name)
+Warn [15:11:33] Stack trace end
+Warn [15:11:33] Error in <attached> calling function <callback>()
+     [15:12:20] Shutting down server...
+Info [15:12:20] Player GeneralDragon has left the game
+     [15:12:20] Unloading worlds...
+     [15:12:20] Disabled Core!
+     [15:12:20] Disabled TransAPI!
+     [15:12:20] Cleaning up...
+     [15:12:20] Shutdown successful!
+     [15:12:20] --- Stopped Log ---

@@ -1,0 +1,39 @@
+     [15:13:17] --- Started Log ---
+     [15:13:17] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [15:13:17] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [15:13:17] Creating new server instance...
+     [15:13:17] Reading server config...
+     [15:13:17] Starting server...
+Info [15:13:17] Compatible clients: 1.7.x, 1.8.x
+Info [15:13:17] Compatible protocol versions 4, 5, 47
+Warn [15:13:17] WebServer: The server is running in unsecured HTTP mode.
+Info [15:13:17] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [15:13:17] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [15:13:17] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [15:13:17] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [15:13:17] -- Loading Plugins --
+     [15:13:17] Initialized ChatLog v.3
+     [15:13:17] Initialised Core v.15
+     [15:13:17] Initialized KubeMonkey v.1
+     [15:13:17] Initialized TransAPI v.1
+     [15:13:17] -- Loaded 4 Plugins --
+Warn [15:13:17] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [15:13:17] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [15:13:17] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+     [15:13:18] OnWorldStarted
+     [15:13:19] OnWorldStarted
+Warn [15:13:19] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [15:13:19] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+     [15:13:19] OnWorldStarted
+     [15:13:19] Startup complete, took 1933ms!
+Info [15:13:22] Player GeneralDragon has joined the game
+Warn [15:13:24] LUA: Plugins/KubeMonkey/handlers.lua:35: error in function 'AddEntityEffect'.
+     argument #1 is 'number'; 'cPawn' expected.
+
+Warn [15:13:24] Stack trace:
+Warn [15:13:24]   [C](-1): AddEntityEffect
+Warn [15:13:24]   Plugins/KubeMonkey/handlers.lua(35): (no name)
+Warn [15:13:24]   [C](-1): DoWithEntityByID
+Warn [15:13:24]   Plugins/KubeMonkey/handlers.lua(20): (no name)
+Warn [15:13:24] Stack trace end
+Warn [15:13:24] Error in <attached> calling function <callback>()

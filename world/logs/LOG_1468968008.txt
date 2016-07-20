@@ -1,0 +1,26 @@
+     [15:40:08] --- Started Log ---
+     [15:40:08] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [15:40:08] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [15:40:08] Creating new server instance...
+     [15:40:08] Reading server config...
+     [15:40:08] Starting server...
+Info [15:40:08] Compatible clients: 1.7.x, 1.8.x
+Info [15:40:08] Compatible protocol versions 4, 5, 47
+Warn [15:40:08] WebServer: The server is running in unsecured HTTP mode.
+Info [15:40:08] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [15:40:08] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [15:40:08] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [15:40:08] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [15:40:08] -- Loading Plugins --
+     [15:40:08] Initialized ChatLog v.3
+     [15:40:08] Initialised Core v.15
+     [15:40:08] Initialized KubeMonkey v.1
+     [15:40:08] Initialized TransAPI v.1
+     [15:40:08] -- Loaded 4 Plugins --
+Warn [15:40:08] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [15:40:08] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [15:40:08] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+     [15:40:09] OnWorldStarted
+     [15:40:09] OnWorldStarted
+Warn [15:40:09] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [15:40:09] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.

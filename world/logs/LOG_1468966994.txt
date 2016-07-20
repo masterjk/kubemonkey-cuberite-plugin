@@ -1,0 +1,44 @@
+     [15:23:14] --- Started Log ---
+     [15:23:14] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [15:23:14] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [15:23:14] Creating new server instance...
+     [15:23:14] Reading server config...
+     [15:23:14] Starting server...
+Info [15:23:14] Compatible clients: 1.7.x, 1.8.x
+Info [15:23:14] Compatible protocol versions 4, 5, 47
+Warn [15:23:14] WebServer: The server is running in unsecured HTTP mode.
+Info [15:23:14] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [15:23:14] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [15:23:14] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [15:23:14] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [15:23:14] -- Loading Plugins --
+     [15:23:14] Initialized ChatLog v.3
+     [15:23:14] Initialised Core v.15
+     [15:23:14] Initialized KubeMonkey v.1
+     [15:23:14] Initialized TransAPI v.1
+     [15:23:14] -- Loaded 4 Plugins --
+Warn [15:23:14] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [15:23:14] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [15:23:14] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+     [15:23:15] OnWorldStarted
+Info [15:23:15] Chosen a new random seed for world: 1398415531
+Warn [15:23:16] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+     [15:23:16] OnWorldStarted
+Info [15:23:16] Chosen a new random seed for world: 868828292
+Warn [15:23:16] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [15:23:16] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+Warn [15:23:17] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+     [15:23:17] OnWorldStarted
+     [15:23:18] Startup complete, took 3258ms!
+Info [15:23:32] Player GeneralDragon has joined the game
+Info [15:23:42] Player GeneralDragon has left the game
+Info [15:24:37] Player GeneralDragon has joined the game
+     [15:24:43] Player Suicide
+Info [15:27:05] Player GeneralDragon has left the game
+     [15:27:12] Shutting down server...
+     [15:27:13] Unloading worlds...
+     [15:27:13] Disabled Core!
+     [15:27:13] Disabled TransAPI!
+     [15:27:13] Cleaning up...
+     [15:27:13] Shutdown successful!
+     [15:27:13] --- Stopped Log ---

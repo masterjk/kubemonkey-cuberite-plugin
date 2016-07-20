@@ -1,0 +1,40 @@
+     [10:50:16] --- Started Log ---
+     [10:50:16] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [10:50:16] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [10:50:16] Creating new server instance...
+     [10:50:16] Reading server config...
+     [10:50:16] Starting server...
+Info [10:50:16] Compatible clients: 1.7.x, 1.8.x
+Info [10:50:16] Compatible protocol versions 4, 5, 47
+Warn [10:50:16] WebServer: The server is running in unsecured HTTP mode.
+Info [10:50:16] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [10:50:16] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [10:50:16] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [10:50:16] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [10:50:16] -- Loading Plugins --
+     [10:50:16] Initialized ChatLog v.3
+     [10:50:16] Initialised Core v.15
+     [10:50:16] Initialised Docker v.1
+     [10:50:16] Initialized TransAPI v.1
+     [10:50:16] -- Loaded 4 Plugins --
+Warn [10:50:16] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [10:50:16] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [10:50:16] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+Info [10:50:17] Chosen a new random seed for world: 1818438914
+Warn [10:50:18] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+Info [10:50:18] Chosen a new random seed for world: 1507444680
+Warn [10:50:18] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [10:50:18] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+Warn [10:50:19] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 0.00, 0.00}
+     [10:50:19] Startup complete, took 2990ms!
+     [10:50:24] player joined
+     [10:50:24] executed: goproxy containers -> 0
+Info [10:50:24] Player GeneralDragon has joined the game
+     [10:50:41] Shutting down server...
+Info [10:50:41] Player GeneralDragon has left the game
+     [10:50:42] Unloading worlds...
+     [10:50:42] Disabled Core!
+     [10:50:42] Disabled TransAPI!
+     [10:50:42] Cleaning up...
+     [10:50:42] Shutdown successful!
+     [10:50:42] --- Stopped Log ---

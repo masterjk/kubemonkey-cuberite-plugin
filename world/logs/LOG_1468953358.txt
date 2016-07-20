@@ -1,0 +1,54 @@
+     [11:35:58] --- Started Log ---
+     [11:35:58] Cuberite Jenkins clang x64 Release (master) build id: #85
+     [11:35:58] from commit id: bd2fc7716c4571dfd8840923b17d363dd19146d1 built at: Wed Mar 16 12:44:51 CET 2016
+     [11:35:58] Creating new server instance...
+     [11:35:58] Reading server config...
+     [11:35:58] Starting server...
+Info [11:35:58] Compatible clients: 1.7.x, 1.8.x
+Info [11:35:58] Compatible protocol versions 4, 5, 47
+Warn [11:35:58] WebServer: The server is running in unsecured HTTP mode.
+Info [11:35:58] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+Warn [11:35:58] Cannot open file "crafting.txt", no crafting recipes will be available!
+     [11:35:58] Could not open the furnace recipes file "furnace.txt". No furnace recipes are available.
+     [11:35:58] Could not open the brewing recipes file "brewing.txt". No brewing recipes are available.
+     [11:35:58] -- Loading Plugins --
+     [11:35:58] Initialized ChatLog v.3
+     [11:35:58] Initialised Core v.15
+Warn [11:35:58] LUA: Plugins/KubeMonkey/kubemonkey.lua:25: "BindCommand" function expects a function as its 3rd parameter. Command-binding aborted.
+Warn [11:35:58] Stack trace:
+Warn [11:35:58]   [C](-1): BindCommand
+Warn [11:35:58]   Plugins/KubeMonkey/kubemonkey.lua(25): (no name)
+Warn [11:35:58] Stack trace end
+Warn [11:35:58] Error in plugin KubeMonkey calling function Initialize()
+Warn [11:35:58] Error in plugin KubeMonkey: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [11:35:58] Initialized TransAPI v.1
+     [11:35:58] -- Loaded 3 Plugins --
+Warn [11:35:58] Initialize: Cannot read monsters.ini file, monster attributes not available
+Warn [11:35:58] Cannot read data from file Prefabs/Villages/PlainsVillage.cubeset
+Warn [11:35:58] Cannot read data from file Prefabs/Villages/SandVillage.cubeset
+     [11:35:59] Preparing spawn (world): 22.00% (88/400; 85.69 chunks / sec)
+     [11:36:00] Chunk generator performance: 92.28 ch / sec (185 ch total)
+     [11:36:00] Preparing spawn (world): 56.75% (227/400; 135.87 chunks / sec)
+     [11:36:01] Chunk generator performance: 88.53 ch / sec (355 ch total)
+     [11:36:01] Preparing spawn (world): 92.00% (368/400; 140.72 chunks / sec)
+     [11:36:02] Chunk generator performance: 87.86 ch / sec (484 ch total)
+Info [11:36:02] Chosen a new random seed for world: 88202889
+Warn [11:36:03] Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0.00, 168.00, 0.00}
+Info [11:36:03] Chosen a new random seed for world: 1372689715
+Warn [11:36:03] Cannot load PieceStructures cubeset file Prefabs/PieceStructures/NetherFort.cubeset.gz
+Warn [11:36:03] The PieceStructures generator was asked to generate "NetherFort", but none of the prefabs are valid.
+     [11:36:04] Preparing spawn (world_nether): 24.75% (99/400; 98.70 chunks / sec)
+     [11:36:05] Preparing spawn (world_nether): 51.75% (207/400; 107.89 chunks / sec)
+     [11:36:06] Preparing spawn (world_nether): 79.25% (317/400; 109.56 chunks / sec)
+Info [11:36:07] Generated spawnpoint position at {16.50, 123.00, 16.50}
+     [11:36:07] Startup complete, took 8484ms!
+Info [11:36:12] Player GeneralDragon has joined the game
+     [11:36:19] Chunk generator performance: 35.80 ch / sec (38 ch total)
+     [11:39:51] Shutting down server...
+Info [11:39:51] Player GeneralDragon has left the game
+     [11:39:52] Unloading worlds...
+     [11:39:52] Disabled Core!
+     [11:39:52] Disabled TransAPI!
+     [11:39:52] Cleaning up...
+     [11:39:52] Shutdown successful!
+     [11:39:52] --- Stopped Log ---
