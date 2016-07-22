@@ -1,1 +1,7 @@
 Server
+world/logs/*
+world/world/data
+world/world/region
+world/world/stats
+world/world_end
+world/world_nether
