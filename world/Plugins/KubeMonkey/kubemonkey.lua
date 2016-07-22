@@ -82,7 +82,7 @@ function OnKilled(Entity, TDI, DeathMessage)
 	if Entity:IsMob()
 	then
 		for i, e in ipairs( Villagers ) do
-			if e:GetUniqueID() <= Entity:GetUniqueID() then
+			if e:GetUniqueID() == Entity:GetUniqueID() then
 				table.remove( Villagers, i )
 				LOG("Killed !!!! " .. Entity:GetUniqueID())
 			end
@@ -92,12 +92,14 @@ function OnKilled(Entity, TDI, DeathMessage)
 end
 
 function OnMonsterIdle(Monster)
+	cRoot:Get():BroadcastChat("Villager Count: " .. #Villagers)
+
 	if #Villagers > 0
 	then
-		local victim = tolua.cast(Villagers[math.random(1, #Villagers)], "cPawn")
-		if victim ~= nil
+		local villager = Villagers[math.random(1, #Villagers)]
+		if villager ~= nil
 		then 
-			Monster:SetTarget(victim)
+			Monster:SetTarget(tolua.cast(villager, "cPawn"))
 			cRoot:Get():BroadcastChat("Monster: " .. Monster:GetUniqueID())
 		end
 	end
