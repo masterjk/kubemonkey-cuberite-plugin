@@ -87,11 +87,11 @@
       }
    ],
    "food" : 20,
-   "foodExhaustion" : 0.043200000000000009,
-   "foodSaturation" : 5,
-   "foodTickTimer" : 15,
+   "foodExhaustion" : 0.33730001192092374,
+   "foodSaturation" : 4,
+   "foodTickTimer" : 34,
    "gamemode" : 0,
-   "health" : 20,
+   "health" : 0,
    "inventory" : [
       {
          "ID" : -1
@@ -231,9 +231,9 @@
    ],
    "isflying" : false,
    "lastknownname" : "GeneralDragon",
-   "position" : [ -0.8166299867462532, 64, -4.224497751236763 ],
-   "rotation" : [ 129.2962646484375, 13.049961090087891, 0 ],
+   "position" : [ -20.873561646540395, 64, 22.85941798683654 ],
+   "rotation" : [ -49.203666687011719, 12.899965286254883, 0 ],
    "world" : "world",
-   "xpCurrent" : 0,
-   "xpTotal" : 0
+   "xpCurrent" : 7,
+   "xpTotal" : 7
 }

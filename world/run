@@ -1,6 +1,7 @@
-#rm -rf world/data
-#rm -rf world/stats/
-#rm -rf world_end/
-#rm -rf world_nether/
-#rm -rf world/region/*
-../Server/Cuberite 
+find . -name '*sqlite' | xargs rm
+rm -rf world/data
+rm -rf world/stats/
+rm -rf world_end/
+rm -rf world_nether/
+rm -rf world/region/*
+../../cuberite/Server/Cuberite 

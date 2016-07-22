@@ -6,25 +6,23 @@ function Initialize(Plugin)
 
 	UpdateQueue = NewUpdateQueue()
 
+	Villagers = {}
+
 	-- Set Up Event Handlers
 	cPluginManager:AddHook(cPluginManager.HOOK_CHUNK_GENERATING, OnChunkGenerating);
 	cPluginManager:AddHook(cPluginManager.HOOK_TICK, Tick);
 	cPluginManager:AddHook(cPluginManager.HOOK_WEATHER_CHANGING, OnWeatherChanging);
 	cPluginManager:AddHook(cPluginManager.HOOK_WORLD_STARTED, WorldStarted);
-	-- 	cPluginManager:AddHook(cPluginManager.HOOK_PLAYER_JOINED, PlayerJoined);
-	-- 	cPluginManager:AddHook(cPluginManager.HOOK_PLAYER_USING_BLOCK, PlayerUsingBlock);
-	-- 	cPluginManager:AddHook(cPluginManager.HOOK_CHUNK_GENERATING, OnChunkGenerating);
-	-- 	cPluginManager:AddHook(cPluginManager.HOOK_PLAYER_FOOD_LEVEL_CHANGE, OnPlayerFoodLevelChange);
-	-- 	cPluginManager:AddHook(cPluginManager.HOOK_TAKE_DAMAGE, OnTakeDamage);
-	-- 	cPluginManager:AddHook(cPluginManager.HOOK_SERVER_PING, OnServerPing);
-
+	cPluginManager:AddHook(cPluginManager.HOOK_KILLED, OnKilled);
+	cPluginManager:AddHook(cPluginManager.HOOK_SPAWNED_MONSTER, OnSpawnedMonster)
+	cPluginManager:AddHook(cPluginManager.HOOK_MONSTER_IDLE, OnMonsterIdle)
+	
 	-- User Command Handlers
 	cPluginManager.BindCommand("/die", "*", HandleKillCommand, "kill player")
 	cPluginManager.BindCommand("/vil", "*", HandleVillagerCommand, "spawn villager")
 	cPluginManager.BindCommand("/zom", "*", HandleZombieCommand, "spawn zombie")
 	cPluginManager.BindCommand("/creeper", "*", HandleCreeperCommand, "spawn creeper")
 	cPluginManager.BindCommand("/pos", "*", HandlePosCommand, "what is my position?")
-	cPluginManager.BindCommand("/s", "*", HandleSpawnCommand, "spawn")
 
 	-- HTTP EndPoints -- /{pluginName}/{endPoint}
 	Plugin:AddWebTab("start", PodStartedHandler)
@@ -72,6 +70,39 @@ function WorldStarted(World)
 	end	
 end
 
+function OnSpawnedMonster(World, Monster)
+	if Monster:GetMobType() == E_META_SPAWN_EGG_VILLAGER
+	then
+		table.insert(Villagers, Monster)
+		cRoot:Get():BroadcastChat("Spawned Villagers! Size: " .. table.getn(Villagers) .. "; Unique ID: " .. Monster:GetUniqueID());
+	end
+end
+
+function OnKilled(Entity, TDI, DeathMessage)
+	if Entity:IsMob()
+	then
+		for i, e in ipairs( Villagers ) do
+			if e:GetUniqueID() <= Entity:GetUniqueID() then
+				table.remove( Villagers, i )
+				LOG("Killed !!!! " .. Entity:GetUniqueID())
+			end
+		end
+--		cRoot:Get():BroadcastChat("Entity Mob " .. Entity:GetClass() .. Entity:GetUniqueID());
+	end
+end
+
+function OnMonsterIdle(Monster)
+	if #Villagers > 0
+	then
+		local victim = tolua.cast(Villagers[math.random(1, #Villagers)], "cPawn")
+		if victim ~= nil
+		then 
+			Monster:SetTarget(victim)
+			cRoot:Get():BroadcastChat("Monster: " .. Monster:GetUniqueID())
+		end
+	end
+end
+
 -- ------------------------------------------------------------
 -- HTTP HANDLERS
 -- ------------------------------------------------------------
@@ -84,10 +115,7 @@ function PodStartedHandler(Request)
 	local SpawnY = cRoot:Get():GetDefaultWorld():GetSpawnY()
 	local SpawnZ = cRoot:Get():GetDefaultWorld():GetSpawnZ()
 	
-	cRoot:Get():BroadcastChat("X: " .. SpawnX)
-	cRoot:Get():BroadcastChat("Y: " .. SpawnY)
-	cRoot:Get():BroadcastChat("Z: " .. SpawnZ)
-	cRoot:Get():GetDefaultWorld():SpawnMob(SpawnX, SpawnY, SpawnZ, mfHostile, false)
+	cRoot:Get():GetDefaultWorld():SpawnMob(SpawnX, SpawnY, SpawnZ, mtVillager, false)
 end
 
 function PodStoppedHandler(Request)	
