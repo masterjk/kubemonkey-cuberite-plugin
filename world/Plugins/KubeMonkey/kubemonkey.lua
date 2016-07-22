@@ -84,16 +84,14 @@ function OnKilled(Entity, TDI, DeathMessage)
 		for i, e in ipairs( Villagers ) do
 			if e:GetUniqueID() == Entity:GetUniqueID() then
 				table.remove( Villagers, i )
-				LOG("Killed !!!! " .. Entity:GetUniqueID())
+				LOG("Killed Villager #" .. Entity:GetUniqueID())
 			end
 		end
---		cRoot:Get():BroadcastChat("Entity Mob " .. Entity:GetClass() .. Entity:GetUniqueID());
 	end
 end
 
 function OnMonsterIdle(Monster)
 	cRoot:Get():BroadcastChat("Villager Count: " .. #Villagers)
-
 	if #Villagers > 0
 	then
 		local villager = Villagers[math.random(1, #Villagers)]
@@ -110,18 +108,35 @@ end
 -- ------------------------------------------------------------
 
 function PodStartedHandler(Request)	
-	LOG("Pod Started Handler")
-	cRoot:Get():BroadcastChat("started!!!")
-	
+	LOG("Started Container")
 	local SpawnX = cRoot:Get():GetDefaultWorld():GetSpawnX()
 	local SpawnY = cRoot:Get():GetDefaultWorld():GetSpawnY()
 	local SpawnZ = cRoot:Get():GetDefaultWorld():GetSpawnZ()
 	
-	cRoot:Get():GetDefaultWorld():SpawnMob(SpawnX, SpawnY, SpawnZ, mtVillager, false)
+	containerId = Request.PostParams["containerId"]
+
+	local entityId = cRoot:Get():GetDefaultWorld():SpawnMob(SpawnX, SpawnY, SpawnZ, mtVillager, false)
+	cRoot:Get():GetDefaultWorld():DoWithEntityByID(entityId,
+		function(Entity)
+			Entity:SetCustomName(containerId);
+		end
+	)
 end
 
 function PodStoppedHandler(Request)	
-	LOG("Pod Destroyed Handler")
-	cRoot:Get():BroadcastChat("stopped!!!")
+	LOG("Stopped Container")
+	containerId = Request.PostParams["containerId"]
+
+	for i, e in ipairs( Villagers ) do
+		if e:GetCustomName() == containerId
+		then
+			cRoot:Get():GetDefaultWorld():DoWithEntityByID(e:GetUniqueID(),
+			function(Entity)
+				Entity:TakeDamage(dtInVoid, nil, 1000, 1000, 0)
+			end
+			)
+		end
+	end
+
 end
 
