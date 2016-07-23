@@ -84,7 +84,8 @@ function OnKilled(Entity, TDI, DeathMessage)
 		for i, e in ipairs( Villagers ) do
 			if e:GetUniqueID() == Entity:GetUniqueID() then
 				table.remove( Villagers, i )
-				LOG("Killed Villager #" .. Entity:GetUniqueID())
+				r = os.execute("kubectl delete pod " .. Entity:GetCustomName())
+				LOG("Killed Villager ID: " .. Entity:GetUniqueID() .. "; CustomName: " .. Entity:GetCustomName())
 			end
 		end
 	end
